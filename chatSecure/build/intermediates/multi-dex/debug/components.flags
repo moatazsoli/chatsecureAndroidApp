@@ -1,0 +1,150 @@
+-injars 'C:\Users\Moataz\ChatSecureAndroid\chatSecure\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'C:\Users\Moataz\ChatSecureAndroid\chatSecure\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\Moataz\Android\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\build-tools\23.0.0\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'C:\Users\Moataz\ChatSecureAndroid\chatSecure\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class info.guardianproject.otr.app.im.app.ImApp {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class info.guardianproject.otr.app.im.app.WelcomeActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.ActiveChatListView {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.ui.AboutActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.plugin.xmpp.XmppImPlugin {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.plugin.xmpp.LLXmppImPlugin {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.service.RemoteImService {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.service.HeartbeatService {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.provider.ImpsProvider {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.ChooseAccountActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.ImUrlActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.AccountWizardActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.AccountActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.SignoutActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.AddContactActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.NewChatActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.ContactsPickerActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.BlockedContactsActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.ContactPresenceActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.AccountSettingsActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.SettingActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.SmpResponseActivity {
+    <init>();
+}
+
+-keep class de.duenndns.ssl.MemorizingActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.NetworkConnectivityListener {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.BootCompletedListener {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.LockScreenActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.MissingChatFileStoreActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.cacheword.CacheWordService {
+    <init>();
+}
+
+-keep class net.hockeyapp.android.UpdateActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.app.DummyActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.ui.ImageViewActivity {
+    <init>();
+}
+
+-keep class info.guardianproject.otr.app.im.ui.SecureCameraActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

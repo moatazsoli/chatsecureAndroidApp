@@ -73,7 +73,7 @@
     <string name="_open_conversations">текущи дискусии</string>
     <string name="_resent_">[повторно изпратено]</string>
     <string name="_via_orbot">Орбот (Тор)</string>
-    <!-- From: file:/C:/Users/Moataz/ChatSecureAndroid/chatSecure/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-bg/values.xml -->
+    <!-- From: file:/C:/Users/Moataz/ChatSecureAndroid/chatSecure/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-bg/values.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Придвижване към „Начало“"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"„%1$s“ – %2$s"</string>
@@ -90,6 +90,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Гласово търсене"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Споделяне със: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свиване"</string>
     <!-- From: file:/C:/Users/Moataz/ChatSecureAndroid/chatSecure/src/main/res/values-bg/strings.xml -->
     <eat-comment/>
     <string name="about_link">За ChatSecure\nhttps://guardianproject.info/apps/chatsecure/</string>
@@ -201,6 +202,42 @@ OTR протоколът е съвместим с други приложени�
     <string name="choose_list_label">Избери списък:</string>
     <string name="client_type_computer">Компютър</string>
     <string name="client_type_mobile">Мобилно устройство</string>
+    <!-- From: file:/C:/Users/Moataz/ChatSecureAndroid/chatSecure/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values-bg/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> изисква актуализиране на приложението Android Wear."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да стартира, освен ако не актуализирате приложението Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Актуализиране на Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> изисква една или повече услуги за Google Play, които понастоящем не са налице. Моля, свържете се с програмиста за съдействие."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Услуги за Google Play: Актив."</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да работи, освен ако не активирате услугите за Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Активиране на услугите за Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Заявено от <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Услуги за Google Play: Изтегл."</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на телефона ви."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на таблета ви."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Изтегляне на услугите за Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Посоченият профил не съществува на това устройство. Моля, изберете друг."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Невалиден профил"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Приложение изисква активирането на услугите за Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"За свързване с услугите за Google Play се изисква връзка за данни."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Грешка в мрежата"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Приложение изисква актуализирането на услугите за Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Грешка в услугите за Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"При влизането в посочения профил възникна грешка. Моля, изберете друг."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Влизането в профила не бе успешно"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Неизвестен проблем с услугите за Google Play."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> разчита на услугите за Google Play, които не се поддържат от устройството ви. Свържете се с производителя за съдействие."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Услуги за Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Актуализиране"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, освен ако не актуализирате услугите за Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Актуализиране на услугите за Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Услугите за Google Play се актуализират"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Отваряне в телефона"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Вход"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Вход с Google"</string>
+    <!-- From: file:/C:/Users/Moataz/ChatSecureAndroid/chatSecure/src/main/res/values-bg/strings.xml -->
+    <eat-comment/>
     <string name="compose_hint">Прати съобщение</string>
     <string name="compose_hint_secure">Прати поверително съобщение </string>
     <string name="confirm">Потвърди</string>

@@ -7,8 +7,8 @@ android {
     defaultConfig {
         applicationId "info.guardianproject.otr.app.im"
         minSdkVersion 9
+        multiDexEnabled true
         targetSdkVersion 21
-
         testApplicationId "info.guardianproject.otr.app.im.test"
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
     }
@@ -40,11 +40,10 @@ dependencies {
     compile project(':tibetanTextLibrary')
     compile project(':cachewordlib')
     compile project(':memorizingTrustManager')
-    compile project(':library')
-    compile project(':library')
     compile 'com.android.support:support-v4:21.0.3'
     compile 'com.google.guava:guava:11.0.2'
-    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.google.android.gms:play-services-location:7.8.0'
     compile files('libs/asmack-android-8.jar')
     compile files('libs/commons-codec.jar')
     compile files('libs/commons-io-2.2.jar')
