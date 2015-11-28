@@ -285,7 +285,7 @@ public class WelcomeActivity extends ThemeableActivity implements ICacheWordSubs
         if (isAccountEditable && mProviderCursor.isNull(ACTIVE_ACCOUNT_PW_COLUMN)) {
             // no password, edit the account
             if (Log.isLoggable(TAG, Log.DEBUG))
-                Log.i(TAG, "no pw for account " + accountId);
+                Log.d(TAG, "no pw for account " + accountId);
             Intent intent = getEditAccountIntent();
             startActivity(intent);
             finish();
